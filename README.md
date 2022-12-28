@@ -7,5 +7,10 @@ The scripts have been developed with Matlab , and CPLEX (freely downloadable wit
 
 Install the COBRA toolbox <https://opencobra.github.io/cobratoolbox/stable/installation.html>.
 
+RUN
+------------
+
 The REDHuman algorteim is under the REDHuman reposetory.
 The file Run_REDHuman.m is 
+
+The resulted barplot of of Yael's experiment is under the folder -Yael's experiment.
