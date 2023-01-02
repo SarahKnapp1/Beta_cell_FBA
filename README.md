@@ -13,7 +13,7 @@ RUN
 The Reduction of the human genome-scale model is under the REDHuman reposetory.
 I adjusted the protocol from Maria Masid From the paper: Maria Masid, Meriç Ataman and Vassily Hatzimanikatis. "redHUMAN: analyzing human metabolism and growth media through systematic reductions of thermodynamically curated genome-scale models"
 
-The file Run_REDHuman.m is the main file which one should run in the redHUman folder
+The file Run_REDHuman.m is the main file which one should run in the REDHuman folder
 
 The resulted barplot of Yael's experiment is under the folder -Yael's experiment.
 
