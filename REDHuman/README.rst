@@ -14,6 +14,4 @@ Generating reduced models
 3. Run the Run_REDHuman.m file been in this folder 
 
 
-License
-=======
-The software in this repository is put under an APACHE licensing scheme. 
+
