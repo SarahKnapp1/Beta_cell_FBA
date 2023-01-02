@@ -1,6 +1,5 @@
-%Sarah Knapp
-% Arginine is not being synthesize from the core. In order to add the synthesis of arginine to the model the pathway required to 
-% synthesize needs to be added. This is done by lumpGEM (lumping for arginine production while blocking its uptake).
+% Adjusted by Sarah Knapp
+%Maria's protocol.
 
 %%%%%% DO NOT FORGET TO ADD CPLEX TO PATH!!!!%%%%%%
 % installed cplex
@@ -442,6 +441,9 @@ if strcmp(performLUMPGEM, 'yes')
     end
 
 %% 
+% Adjust: Arginine is not being synthesize from the core. In order to add the synthesis of arginine to the model the pathway required to 
+% synthesize needs to be added. This is done by lumpGEM (lumping for arginine production while blocking its uptake).
+
     GSM_ForLumping= changeRxnBounds(GSM_ForLumping,'EX_arg_L_e',0,'b');
     [activeRxns, LumpedRxnFormulas, bbbNames, DPsAll, IdNCNTNER, relaxedDGoVarsValues_ForEveryLumpedRxn] = ...
         addBIOMASS(GSM_ForLumping, otherReactionsGSMForLump_idx, DB_AlbertyUpdate, BBBsToExclude, AerobicAnaerobic, ...
