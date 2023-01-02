@@ -1,7 +1,15 @@
-% provide path to thermodynamic data (including the file name)
-Thermo_data_PATH='C:/Users/sarah/matTFA-master/thermoDatabases/DB_AlbertyUpdate.mat';
+Requirements
+------------
 
-% Load the thermodynamic database used
-load(Thermo_data_PATH)
+For the metabolic tasks in the model_validation.m file 
+it is required to provide the path to the thermodynamic data (including the file name)
 
-%provide path to matTFA
+matTFA data: `matTFA <https://github.com/EPFL-LCSB/mattfa/>`_
+A Matlab implementation of Thermodynamics-based Flux Analysis
+
+
+Notes
+------------
+sanity checks.m file - large number of sanity checks.
+model_validation.m file  - metabolic tasks from Agren. 
+Peper: Agren, R et al.(2014). Identification of anticancer drugs for hepatocellular carcinoma through personalized genome-scale metabolic modeling. Molecular Systems Biology, 10(3). https://doi.org/10.1002/msb.145122
