@@ -1,1 +1,7 @@
+% provide path to thermodynamic data (including the file name)
+Thermo_data_PATH='C:/Users/sarah/matTFA-master/thermoDatabases/DB_AlbertyUpdate.mat';
 
+% Load the thermodynamic database used
+load(Thermo_data_PATH)
+
+%provide path to matTFA
