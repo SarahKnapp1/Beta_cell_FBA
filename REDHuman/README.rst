@@ -1,7 +1,7 @@
 Requirements
 ------------
 
-The scripts have been developed with Matlab , and CPLEX (freely downloadable with the `IBM Academic initiative <https://developer.ibm.com/academic/>`_), and successfully ran on several other versions of both softwares. However, it is important to respect the IBM compatibility specs sheets between Matlab, CPLEX, and the computer OS - available `on IBM's website <https://www.ibm.com/software/reports/compatibility/clarity/index.html>`_.
+The scripts have been developed with Matlab , and CPLEX,version 12.8.0 (freely downloadable with the `IBM Academic initiative <https://developer.ibm.com/academic/>`_), and successfully ran on several other versions of both softwares. However, it is important to respect the IBM compatibility specs sheets between Matlab, CPLEX, and the computer OS - available `on IBM's website <https://www.ibm.com/software/reports/compatibility/clarity/index.html>`_.
 
 This module requires `matTFA <https://github.com/EPFL-LCSB/mattfa/>`_
 A Matlab implementation of Thermodynamics-based Flux Analysis
