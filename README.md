@@ -17,4 +17,4 @@ The file Run_REDHuman.m is the main file which one should run.
 
 The resulted barplot of Yael's experiment is under the folder -Yael's experiment.
 
-The FBA analysis results is under FBA.
+The FBA analysis results are under FBA.
