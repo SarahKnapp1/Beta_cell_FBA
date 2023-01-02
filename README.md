@@ -3,7 +3,7 @@
 Requirements
 ------------
 
-The scripts have been developed with Matlab , and CPLEX (freely downloadable with the `IBM Academic initiative <https://developer.ibm.com/academic/>), and successfully ran on several other versions of both softwares.
+The scripts have been developed with Matlab , and CPLEX, version 12.8.0 (freely downloadable with the `IBM Academic initiative <https://developer.ibm.com/academic/>), and successfully ran on several other versions of both softwares.
 
 COBRA toolbox installation is needed <https://opencobra.github.io/cobratoolbox/stable/installation.html>.
 
